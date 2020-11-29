@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>invisible.png</file>
+    <file>login.png</file>
+  </qresource>
+</RCC>
