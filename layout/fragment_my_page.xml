@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MyPageFragment">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="453dp"
+        android:layout_height="687dp"
+        android:src="@drawable/mapage_fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/user_id_mypage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <ImageButton
+        android:id="@+id/imageB_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mypage_bt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_id_mypage" />
+
+    <ImageButton
+        android:id="@+id/imageB_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mypage_bt2"
+        app:layout_constraintEnd_toEndOf="@+id/imageB_update"
+        app:layout_constraintStart_toStartOf="@+id/imageB_update"
+        app:layout_constraintTop_toBottomOf="@+id/imageB_update" />
+
+    <ImageButton
+        android:id="@+id/imageB_ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mypage_bt3"
+        app:layout_constraintEnd_toEndOf="@+id/imageB_version"
+        app:layout_constraintStart_toStartOf="@+id/imageB_version"
+        app:layout_constraintTop_toBottomOf="@+id/imageB_version" />
+
+    <ImageButton
+        android:id="@+id/imageB_bye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mypage_bt4"
+        app:layout_constraintEnd_toEndOf="@+id/imageB_ask"
+        app:layout_constraintStart_toStartOf="@+id/imageB_ask"
+        app:layout_constraintTop_toBottomOf="@+id/imageB_ask" />
+
+    <ImageButton
+        android:id="@+id/imageB_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mypage_bt5"
+        app:layout_constraintEnd_toEndOf="@+id/imageB_bye"
+        app:layout_constraintStart_toStartOf="@+id/imageB_bye"
+        app:layout_constraintTop_toBottomOf="@+id/imageB_bye" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="96dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ladybug"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

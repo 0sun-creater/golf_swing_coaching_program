@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login_back" />
+
+    <EditText
+        android:id="@+id/login_id"
+        android:layout_width="275dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="51dp"
+        android:backgroundTint="#909c95"
+        android:ems="10"
+        android:hint="아이디를 입력해주세요."
+        android:inputType="textPersonName"
+        android:textColorHint="#909c95"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_pwd"
+        android:layout_width="275dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#909c95"
+        android:ems="10"
+        android:hint="비밀번호를 입력해주세요."
+        android:inputType="textPersonName"
+        android:textColorHint="#909c95"
+        app:layout_constraintEnd_toEndOf="@+id/login_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_id"
+        app:layout_constraintTop_toBottomOf="@+id/login_id" />
+
+    <ImageButton
+        android:id="@+id/btn_login"
+        android:layout_width="299dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/login_pwd"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/login_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/login_pwd"
+        app:srcCompat="@drawable/login" />
+
+    <ImageButton
+        android:id="@+id/btn_sign"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-15dp"
+        android:background="#FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:srcCompat="@drawable/sign_up" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="731dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
