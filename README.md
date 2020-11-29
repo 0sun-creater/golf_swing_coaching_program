@@ -1,4 +1,4 @@
 # ladybug
 
 
-# Activity, Data, Network, layout folder from Android 
+Activity, Data, Network, layout folder from Android 
