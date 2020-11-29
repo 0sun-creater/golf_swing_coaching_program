@@ -49,7 +49,7 @@ public class VideoActivity extends AppCompatActivity {
     public String AwsConnector(String video_name){ // 비디오 재생
         CognitoCachingCredentialsProvider credentialsProvider = new CognitoCachingCredentialsProvider(
                 this,
-                "ap-northeast-2:5bab767a-439f-46fc-ae57-e62a903f301f", // 자격 증명 풀 ID
+                "", // 자격 증명 풀 ID
                 Regions.AP_NORTHEAST_2 // 리전
         );
 
@@ -59,7 +59,7 @@ public class VideoActivity extends AppCompatActivity {
 
         TransferUtility transferUtility = TransferUtility.builder().
                 context(this).
-                defaultBucket("ladybug-bucket").
+                defaultBucket(""). //버킷 이름
                 s3Client(_s3Client).
                 build();
 
