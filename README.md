@@ -40,7 +40,7 @@
 
 ### 사용한 소프트웨어
 
-      1. Python
+      **1. Python**
          - 분석 프로그램
          - 시스템 GUI
       2. Android Studio
