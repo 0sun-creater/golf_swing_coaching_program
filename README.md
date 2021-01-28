@@ -31,26 +31,26 @@
 
 ----
 ### 사용한 라이브러리
-> 1. OpenPose 
->    오픈포즈의 라이센스가 스포츠에는 사용하지 못하도록 되어 있으므로 상용화하는 데에 번거로움이 있음
-> 2. YOLO v3
->    약 6000장의 골프채를 학습 시켜서 좋은 결과를 얻었으나, 분석하는 데에 쓰진 않았음
+      1. OpenPose 
+         오픈포즈의 라이센스가 스포츠에는 사용하지 못하도록 되어 있으므로 상용화하는 데에 번거로움이 있음
+      2. YOLO v3
+         약 6000장의 골프채를 학습 시켜서 좋은 결과를 얻었으나, 분석하는 데에 쓰진 않았음
 
 ### 사용한 소프트웨어
 
-     > 1. Python
-     >    - 분석 프로그램
-     >    - 시스템 GUI
-     > 2. Android Studio
+      1. Python
+         - 분석 프로그램
+         - 시스템 GUI
+      2. Android Studio
           - 유튜브 추천영상, 내 영상 다시보기
           - 커뮤니티, 인기글, 회원정보, 문의하기, 버전확인 
-     > 3. Unity
+      3. Unity
           - 시스템 GUI intro 영상 생성
-     > 4. AWS Server (EC2,C3 사용)
+      4. AWS Server (EC2,C3 사용)
           - Python & DB 연동
           - Android & DB 연동
-     > 5. MySQL Workbench
+      5. MySQL Workbench
           - 유저 정보, 지난 영상, 커뮤니티 저장용도
-     > 6. Photoshop
+      6. Photoshop
           - gif 파일 생성
           - background 이미지 생성
