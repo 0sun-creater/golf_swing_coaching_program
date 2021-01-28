@@ -40,19 +40,19 @@
 
 ### 사용한 소프트웨어
 
-      1. Python
+      * Python
          - 분석 프로그램
          - 시스템 GUI
-      2. Android Studio
+      * Android Studio
           - 유튜브 추천영상, 내 영상 다시보기
           - 커뮤니티, 인기글, 회원정보, 문의하기, 버전확인 
-      3. Unity
+      * Unity
           - 시스템 GUI intro 영상 생성
-      4. AWS Server (EC2,C3 사용)
+      * AWS Server (EC2,C3 사용)
           - Python & DB 연동
           - Android & DB 연동
-      5. MySQL Workbench
+      * MySQL Workbench
           - 유저 정보, 지난 영상, 커뮤니티 저장용도
-      6. Photoshop
+      * Photoshop
           - gif 파일 생성
           - background 이미지 생성
