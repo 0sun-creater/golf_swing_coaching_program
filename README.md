@@ -2,12 +2,12 @@
 ## Team name : ladybug
 
 
-***Activity, Data, Network, layout folder from Android**
+**Activity, Data, Network, layout folder from Android**
 
-***GUI, icon, python from our program**
+**GUI, icon, python from our program**
 
 -------
-### 작동 순서
+## 작동 순서
 > 1. 안드로이드 어플에서 회원가입을 한다. 사용자 데이터는 DB에 저장된다.
 > 2. 시스템에서 로그인을 한다. (비회원 진행 불가능)
 > 3. 화면에 intro 영상과 함께 버튼을 눌러달라는 메세지가 깜빡거린다.
@@ -41,9 +41,15 @@
 >    - 분석 프로그램
 >    - 시스템 GUI
 > 2. Android Studio
+     - 유튜브 추천영상, 내 영상 다시보기
+     - 커뮤니티, 인기글, 회원정보, 문의하기, 버전확인 
 > 3. Unity
-> 4. AWS Server (EC2,C3 사용) 
+     - 시스템 GUI intro 영상 생성
+> 4. AWS Server (EC2,C3 사용)
+     - Python & DB 연동
+     - Android & DB 연동
 > 5. MySQL Workbench
+     - 유저 정보, 지난 영상, 커뮤니티 저장용도
 > 6. Photoshop
      - gif 파일 생성
      - background 이미지 생성
